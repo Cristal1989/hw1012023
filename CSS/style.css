@@ -1,0 +1,57 @@
+.tasktwo {
+  color: red;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  list-style: none;
+  color: green;
+}
+
+.rule {
+  list-style: upper-roman;
+  color: navy;
+}
+
+.first-rule {
+  color: red;
+}
+
+.last-rule {
+  color: green;
+}
+
+.active {
+  color: red;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.link:focus {}
+
+[type] {
+  color: white;
+}
+
+* button[type="reset"] {
+  color: green;
+}
+
+[href^="."] {
+  color: red;
+}
+
+[href^="h"] {
+  color: navy;
+}
