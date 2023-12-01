@@ -26,11 +26,11 @@
   color: green;
 }
 
-.active {
+.btn.active {
   color: red;
 }
 
-.active {
+.link.active {
   font-weight: 700;
 }
 
@@ -48,10 +48,41 @@
   color: green;
 }
 
-[href^="."] {
+* [href^="."] {
   color: red;
 }
 
-[href^="h"] {
+* [href^="h"] {
   color: navy;
+}
+
+* [href$="html"] {
+  color: green;
+}
+
+* [href$="css"] {
+  color: orangered;
+}
+
+* [href*="about"] {
+  color: green;
+}
+
+* [href*="com"] {
+  color: orangered;
+}
+
+.sending {
+  background-color: teal;
+  color: white;
+}
+
+.warning {
+  background-color: yellow !important;
+  color: red !important;
+}
+
+menu>menu-item {
+  display: flex;
+  vertical-align: middle;
 }
