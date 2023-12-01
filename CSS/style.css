@@ -9,7 +9,7 @@
 }
 
 * li {
-  list-style: none;
+  /* list-style: none; */
   color: green;
 }
 
@@ -18,11 +18,11 @@
   color: navy;
 }
 
-.first-rule {
+.common-rule.first-rule {
   color: red;
 }
 
-.last-rule {
+.common-rule.last-rule {
   color: green;
 }
 
@@ -82,7 +82,27 @@
   color: red !important;
 }
 
-menu>menu-item {
+/* menu>menu-item {
   display: flex;
   vertical-align: middle;
+} */
+
+/* menu>menu-item {
+  display: flex;
+  flex-direction: row;
+} */
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
 }
+
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* menu sub-menu {
+  display: flex;
+  flex-direction: column;
+} */
